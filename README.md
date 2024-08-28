@@ -23,7 +23,7 @@ This project demonstrates the integration of Security Orchestration, Automation,
 - Incident Response Management: Improved overall incident response management skills, including the ability to coordinate responses across multiple tools and platforms, ensuring a cohesive and efficient approach to handling security incidents.
 
 
-### *Please note, you can use any cloud provider or hosted hypervisor for this project.*
+<b>### *Please note, you can use any cloud provider or hosted hypervisor for this project.*</b>
 ----
 # Windows Server Virtual Machine Setup in Vultr 
 
