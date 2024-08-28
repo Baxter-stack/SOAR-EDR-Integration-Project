@@ -148,3 +148,5 @@ Event Information:
 
 <img src="https://github.com/user-attachments/assets/40588b49-5854-4769-9125-aeec38eaf9b7" width="500" />
 
+
+<b> - Detection & Response Rule Creation </b>
