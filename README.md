@@ -61,7 +61,7 @@ Once the installation is completed and you get “Running” status, select “V
 <img src="https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137" width="500" />
 
 -----
-<b> - Next, we’ll set up our firewall.</b>.
+<b> - Next, we’ll set up the firewall.</b>.
 
 Under products, select <b>Network</b> > <b>Firewall</b> > <b>Firewall Group</b>.
 
