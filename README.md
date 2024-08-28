@@ -80,9 +80,37 @@ To add the firewall, go back to your machine and select <b>Settings</b> > <b>Fir
 <img src="https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91" width="500" />
 
 -----
-# LimaCharlie (EDR) Installation
+# LimaCharlie (EDR) Installation on Virtual Machine
 
 Navigate to [LimaCharlie](https://limacharlie.io/) and create an account.
 
+Create a New Organization, select your name and desired residency region.
+
 <img src="https://github.com/user-attachments/assets/e08d9529-8592-4bc3-980e-4620e480aa57" width="500" />
 
+<img src="https://github.com/user-attachments/assets/f3fd3849-2358-466b-a35f-e5b3721968d2" width="500" />
+
+For the installation key, remove the default keys and create a new key.
+
+<img src="https://github.com/user-attachments/assets/824cc7ee-9ad8-4f45-af6e-159df3dd7772" width="500" />
+
+Next, under <b>Sensor Downloads</b>, copy the link address for the <b>Windows 64 bit</b> EDR agent and paste into server MS Edge page.
+
+<img src="https://github.com/user-attachments/assets/fa0dfd54-ad6f-40c7-aea6-d7c8aed3787c" width="500" />
+<img src="https://github.com/user-attachments/assets/6e98b131-fbcf-4e60-aa73-01abc0d1c505" width="500" />
+
+Copy sensor key which is the installation key
+
+<img src="https://github.com/user-attachments/assets/96af6c87-2190-4953-9584-4530efb7d6a6" width="500" />
+
+Open Powershell on the Server as <b>Administrator</b>.
+
+Navigate to the downloads directory.
+
+Type in the hcp.exe downloaded, insert <b> -i </b>, the sensor key (installation key) and hit enter.
+
+ <img src="https://github.com/user-attachments/assets/ddfa5bd2-73e3-4cfa-8595-80240e1df32f" width="500" />
+
+ <img src="https://github.com/user-attachments/assets/fe512496-c6c2-411e-8332-42dafde3ec88" width="500" />
+
+<b>Sweet! Our Agent was installed successfully!</b>
