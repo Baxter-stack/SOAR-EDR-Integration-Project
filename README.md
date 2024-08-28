@@ -1,4 +1,6 @@
-# SOAR EDR Integration  
+<div align="center">
+  <h2>SOAR EDR Integration</h2>
+</div>
 <div align="center">
   <img src="https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png)](https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png" alt="Description" width="500">
 </div>
