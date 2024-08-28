@@ -1,4 +1,4 @@
-# SOAR-EDR-Integration-Project 
+# SOAR EDR Integration  
 <img src="https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png)](https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png" width="500" />
 
 # Project Objective
@@ -24,10 +24,10 @@ This project demonstrates the integration of Security Orchestration, Automation,
 
 
 ### *Please note, you can use any cloud provider or hosted hypervisor for this project.*
-
+----
 # Windows Server Virtual Machine Setup in Vultr 
 
-Navigate to the [Vultr](https://www.vultr.com/) and create an account. (You get a free $100 credit using the hyperlink provided!)
+Navigate to [Vultr](https://www.vultr.com/) and create an account. (You get a free $100 credit using the hyperlink provided!)
 
 <b> - Select Deploy + or Depploy New Server.</b>
 
@@ -54,20 +54,35 @@ After you deploy the server, you will get the “Running” status
 <img src="https://github.com/user-attachments/assets/bbae925f-6152-456c-bb3c-33ee8786dbbb" width="500" />
 
 
-Once the installation is completed and you get “Running” status, select “View Server Details” to obtain the machine’s password and “View Console” to access the VM
+Once the installation is completed and you get “Running” status, select “View Server Details” to obtain the machine’s password and “View Console” to access the VM.
 
 <img src="https://github.com/user-attachments/assets/be8e5010-1eba-4bcb-8458-72ee6758a293" width="500" />
 
 <img src="https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137" width="500" />
 
 -----
-<b> - Next, we’ll set up our firewall.</b>
+<b> - Next, we’ll set up our firewall.</b>.
 
-Under products, select <b>Network</b> > <b>Firewall</b> > <b>Firewall Group</b>
+Under products, select <b>Network</b> > <b>Firewall</b> > <b>Firewall Group</b>.
+
+<img src="https://github.com/user-attachments/assets/0f61ace7-35d9-4804-9b14-d2eb623fb928" width="500" />
 
 Give a Description Name and select <b>Add Firewall Group</b>
 
-For Protocol, select MS RDP. Source, select MY IP and hit the + button 
+For Protocol, select <b>MS RDP</b>. <b>Source</b>, select <b>MY IP</b> and hit the + button. 
 
-To add the firewall, go back to your machine and select Settings > Firewall > Click the dropdown and select the firewall you created > Update Firewall Group
+<img src="https://github.com/user-attachments/assets/c6865313-a24c-4629-b848-90cd6dcc119b" width="500" />
+
+To add the firewall, go back to your machine and select <b>Settings</b> > <b>Firewall</b> > Click the dropdown and select the firewall you created > <b>Update Firewall Group</b>.
+
+<img src="https://github.com/user-attachments/assets/bb014ad2-4820-42f0-bc9e-263646562044" width="500" />
+
+<img src="https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91" width="500" />
+
+-----
+# LimaCharlie (EDR) Installation
+
+Navigate to [LimaCharlie](https://limacharlie.io/) and create an account.
+
+<img src="https://github.com/user-attachments/assets/e08d9529-8592-4bc3-980e-4620e480aa57" width="500" />
 
