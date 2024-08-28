@@ -16,8 +16,6 @@ This project demonstrates the integration of Security Orchestration, Automation,
 - <b>SquareX (Email)</b>: Used to receive detection alert emails.
 - <b>Vultr</b>: Cloud provider for hosting the virtual machine used in the project. (You can use other cloud providers or use Vmware/VirtualBox, just make sure they are connected to the internet)
 
-*Please note, you can use any cloud provider or hosted hypervisor for this project.*
-
 # Skills Gained 
 - Integration of SOAR and EDR Tools: Developed the ability to integrate SOAR tools with EDR platforms, enhancing automated incident response capabilities.
 - Automation of Security Workflows: Learned to design and implement automated security workflows, enabling real-time detection, response, and notification processes that streamline incident handling.
@@ -27,7 +25,7 @@ This project demonstrates the integration of Security Orchestration, Automation,
 - Incident Response Management: Improved overall incident response management skills, including the ability to coordinate responses across multiple tools and platforms, ensuring a cohesive and efficient approach to handling security incidents.
 
 
-### <b> *Please note, you can use any cloud provider or hosted hypervisor for this project.* </b>
+#### <b> *Please note: You can use any cloud provider or hosted hypervisor for this project.* </b>
 ----
 # Windows Server Virtual Machine Setup in Vultr 
 
@@ -126,4 +124,27 @@ We can confirm that the sensor is active!
 Sensor Details:
 
 <img src="https://github.com/user-attachments/assets/fa36081b-7b6f-43f7-8864-7eca502927c9" width="500" />
+
+---
+<b> - Next, we will download LaZagne (Password Recovery Tool) on the Windows Server to generate telemetry in LimaCharlie </b>
+
+Click on the [LaZagne](https://github.com/AlessandroZ/LaZagne) Repo by Alessandro and select <b>Release v2.4.6 > LaZagne.exe</b>
+
+#### <b> *Please note: You will have to disable Real-time protection under Windows Security for LaZagne.exe to download successfully.* </b>
+
+From the downloads folder, hold shift and right-click on <b>LaZagne</b> and <b>Open Powershell window here</b>.
+
+<img src="https://github.com/user-attachments/assets/cef7b445-21ea-4c0c-85fa-088ef4815458" width="500" />
+
+Can confirm LaZagne is working. 
+
+<img src="https://github.com/user-attachments/assets/4e293a18-2073-46ff-a320-1e338d96c34a" width="500" />
+
+After running the command, LimaCharlie will generate a <b>NEW_PROCESS event</b>.
+
+<img src="https://github.com/user-attachments/assets/ff96c3bf-6c75-415b-934e-7413d4b9e94a" width="500" />
+
+Event Information:
+
+<img src="https://github.com/user-attachments/assets/40588b49-5854-4769-9125-aeec38eaf9b7" width="500" />
 
