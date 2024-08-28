@@ -113,4 +113,13 @@ Type in the hcp.exe downloaded, insert <b> -i </b>, the sensor key (installation
 
  <img src="https://github.com/user-attachments/assets/fe512496-c6c2-411e-8332-42dafde3ec88" width="500" />
 
-<b>Sweet! Our Agent was installed successfully!</b>
+<b>Sweet! The Agent was installed successfully!</b>
+
+We can confirm that the sensor is active! 
+
+<img src="https://github.com/user-attachments/assets/fcd6352a-4c7c-4685-9bd6-64999b0b5fc1" width="500" />
+
+Sensor Details:
+
+<img src="https://github.com/user-attachments/assets/fa36081b-7b6f-43f7-8864-7eca502927c9" width="500" />
+
