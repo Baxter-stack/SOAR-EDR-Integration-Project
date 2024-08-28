@@ -1,5 +1,5 @@
 # SOAR-EDR-Integration-Project 
-<img src="https://github.com/user-attachments/assets/d56e2f15-344c-460a-8467-cc0542b516ba" width="500" />
+<img src="https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png)](https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png" width="500" />
 
 # Project Objective
 This project demonstrates the integration of Security Orchestration, Automation, and Response (SOAR) with Endpoint Detection and Response (EDR) tools to automate security workflows and enhance cybersecurity posture. By leveraging LimaCharlie for the EDR agent and Tines for SOAR, the project provides real-time security insights and automated responses to detected threats. A key feature of this integration is the ability to empower users with a prompt to decide whether to isolate the affected machine, allowing for informed decision-making and flexibility in response actions. Additionally, the project highlights the seamless communication between various platforms, such as Slack and email, ensuring that critical detection alerts and actions are efficiently communicated to relevant stakeholders. This integration streamlines the incident response process and provides a robust framework for dynamic and adaptable security operations.
@@ -29,16 +29,45 @@ This project demonstrates the integration of Security Orchestration, Automation,
 
 Navigate to the [Vultr](https://www.vultr.com/) and create an account. (You get a free $100 credit using the hyperlink provided!)
 
+<b> - Select Deploy + or Depploy New Server.</b>
 
+<img src="https://github.com/user-attachments/assets/f6037365-ad39-4328-8cce-7ec1151ec2cd" width="500" />
 
-<img src="https://github.com/user-attachments/assets/474105bc-a6b0-4384-8452-0bd3122660e1" width="500" />
+Select “Optimized Cloud Compute - Dedicated CPU” as your New Instance and select your desired location.
 
-Navigate to the Vultr and create an account. (You get a free $100 credit using the hyperlink provided!)
-Select Deploy + or Depploy New Server 
-Select “Optimized Cloud Compute - Dedicated CPU” as your New Instance
-Choose your Location 
-For Image, select “Windows Standard” 2022
-Select the lowest plan. In this case, it will be $54/month
+<img src="https://github.com/user-attachments/assets/ef1717fd-b58b-4f73-a2ce-8c9c67e3cf46" width="500" />
+
+For Image, select Windows Standard 2022.
+
+<img src="https://github.com/user-attachments/assets/63217f3f-c000-4d6f-90ef-c534bfb72caa" width="500" />
+
+Select the lowest plan. In this case, it will be $54/month.
+
+<img src="https://github.com/user-attachments/assets/4dcedcff-4182-4886-a6f6-0180bd620671" width="500" />
+
 Name your Hostname & Label 
+
+<img src="https://github.com/user-attachments/assets/76dcea11-f6b4-4f9b-ae16-1bc397988857" width="500" />
+
 After you deploy the server, you will get the “Running” status
+
+<img src="https://github.com/user-attachments/assets/bbae925f-6152-456c-bb3c-33ee8786dbbb" width="500" />
+
+
 Once the installation is completed and you get “Running” status, select “View Server Details” to obtain the machine’s password and “View Console” to access the VM
+
+<img src="https://github.com/user-attachments/assets/be8e5010-1eba-4bcb-8458-72ee6758a293" width="500" />
+
+<img src="https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137" width="500" />
+
+-----
+<b> - Next, we’ll set up our firewall.</b>
+
+Under products, select <b>Network</b> > <b>Firewall</b> > <b>Firewall Group</b>
+
+Give a Description Name and select <b>Add Firewall Group</b>
+
+For Protocol, select MS RDP. Source, select MY IP and hit the + button 
+
+To add the firewall, go back to your machine and select Settings > Firewall > Click the dropdown and select the firewall you created > Update Firewall Group
+
