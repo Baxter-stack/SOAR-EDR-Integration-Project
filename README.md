@@ -150,3 +150,13 @@ Event Information:
 
 
 <b> - Detection & Response Rule Creation </b>
+
+Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>windows_process_creation/proc_creation_win_lolbin_device_credential_deployment</b>
+
+Under the D&R rule, click on the GitHub repository.
+
+<img src="https://github.com/user-attachments/assets/aa02e367-9c30-4e95-b204-3243e9f08ebe" width="500" />
+
+Select <b>Raw</b> and copy the rule content. 
+
+<img src="https://github.com/user-attachments/assets/9b6aeddf-861d-4511-b02d-90e859820254" width="500" />
