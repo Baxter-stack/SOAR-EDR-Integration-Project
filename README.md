@@ -82,7 +82,7 @@ To add the firewall, go back to your machine and select <b>Settings</b> > <b>Fir
 <img src="https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91" width="500" />
 
 -----
-# LimaCharlie (EDR) Installation on Virtual Machine
+# ![LimaCharlie](https://images.ctfassets.net/8ypp714zy4gs/56gQDOjtMywHI4R70K8WdJ/162b909916246fd2cb77fd95c0f74100/LimaCharlie_LogoMarkOnly_WHITE.png?w=64&q=100) EDR Installation on Virtual Machine
 
 Navigate to [LimaCharlie](https://limacharlie.io/) and create an account.
 
@@ -151,7 +151,15 @@ Event Information:
 
 <b> - Detection & Response Rule Creation </b>
 
+Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>New Rule</b>. 
+
+<img src="https://github.com/user-attachments/assets/50a138cc-9e8c-4865-b6e7-7863e1280298" width="500" />
+<img src="https://github.com/user-attachments/assets/61ec5e92-04ca-4ce7-91eb-0a2e80de44a9" width="500" />
+
+#### - *We will use a template to help create the detection rule.*
 Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>windows_process_creation/proc_creation_win_lolbin_device_credential_deployment</b>
+
+<img src="https://github.com/user-attachments/assets/3440779a-44b8-4425-a371-cd1bb6fdc1de" width="500" />
 
 Under the D&R rule, click on the GitHub repository.
 
@@ -160,3 +168,43 @@ Under the D&R rule, click on the GitHub repository.
 Select <b>Raw</b> and copy the rule content. 
 
 <img src="https://github.com/user-attachments/assets/9b6aeddf-861d-4511-b02d-90e859820254" width="500" />
+
+*<b>Modify the rule content.*</b>
+
+Detect Rule:
+
+<img src="https://github.com/user-attachments/assets/1c230812-6122-459f-b8cf-405e7a04ab58" width="500" />
+
+Respond Rule:
+
+<img src="https://github.com/user-attachments/assets/4c8fe891-9f70-4b9e-9de7-a51ad6b5f283" width="500" />
+
+Name the New Rule and hit save:
+
+<img src="https://github.com/user-attachments/assets/1088234d-6d19-4348-8816-7182ebeddbd6" width="500" />
+
+To test the new rule, copy the event from the timeline, paste it into the event section, and hit <b>Test Event</b>.
+  
+<img src="https://github.com/user-attachments/assets/7b1b72f6-08fa-47e4-94cc-a31b87795e9c" width="500" />
+
+*<b>Can confirm that the new rule is working.</b>*
+
+<img src="https://github.com/user-attachments/assets/47d78879-d4b6-43a8-88fe-51e0ccee07b5" width="500" />
+
+*After running a command in the Windows Server, a detection will pop up under the <b>Detections</b> tab.*
+
+-----
+# ![Slack](https://a.slack-edge.com/3d92b39/marketing/img/nav/slack-salesforce-logo-nav-white.png)
+
+Create [Slack](https://slack.com/get-started#/createnew) account. 
+
+Create A New Workspace. 
+
+<img src="https://github.com/user-attachments/assets/158a9c60-ab81-4e58-949a-553e81cbcc74" width="500" />
+
+Choose the free plan.
+
+Create a new channel and name it <b>alerts</b>.
+
+<img src="https://github.com/user-attachments/assets/82e458ff-113d-4a39-92ff-78ad5d111388" width="500" />
+
