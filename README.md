@@ -228,4 +228,13 @@ Copy the <b>Webhook URL</b> and go to LimaCharlie.
 
 <img src="https://github.com/user-attachments/assets/faa2366f-e908-4e25-a5db-6f899e7465bd" width="500" />
 
+In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines
+
+<img src="https://github.com/user-attachments/assets/9722355a-207e-4db2-b528-bfbbd22f2a7c" width="500" />
+<img src="https://github.com/user-attachments/assets/83d0f0a4-d3c1-4e81-a6d5-33c7c525611e" width="500" />
+<img src="https://github.com/user-attachments/assets/6997900f-f5e5-4289-96c9-711b1e8ff1b2" width="500" />
+<img src="https://github.com/user-attachments/assets/830badc7-fb4b-4dd8-ae81-e2e65d6e5cb9" width="500" />
+
+
+
 
