@@ -208,3 +208,24 @@ Create a new channel and name it <b>alerts</b>.
 
 <img src="https://github.com/user-attachments/assets/82e458ff-113d-4a39-92ff-78ad5d111388" width="500" />
 
+---- 
+
+<img src="https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2Fjycsjx9ypwh%2F02csbs2azqv%2FTinesLogoWhite.svg?alt=media&token=f31af318-7b96-463b-8048-9835598142ae" alt="Tines Logo" width="150" />
+
+Create a free [tines](https://www.tines.com/) account.
+
+Tines dashboard. 
+
+<img src="https://github.com/user-attachments/assets/85b4c16f-4d7d-4677-973a-6d8033a0aa86" width="500" />
+
+*<b>The goal is to link LimaCharlie and tines.*</b>
+
+Grab the <b>Webhook</b> icon from the tools section and drag it to the story. 
+
+Name the Webhook <b>Retrieves Detections</b> and Description <b>Retrieves Detections from LimaCharlie</b>. 
+
+Copy the <b>Webhook URL</b> and go to LimaCharlie. 
+
+<img src="https://github.com/user-attachments/assets/faa2366f-e908-4e25-a5db-6f899e7465bd" width="500" />
+
+
