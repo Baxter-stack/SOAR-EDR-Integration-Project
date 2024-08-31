@@ -2,7 +2,7 @@
   <h2>SOAR EDR Integration</h2>
 </div>
 <div align="center">
-  <img src="https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png)](https://i.ibb.co/HxX3wh7/HVb4hnk-Imgur.png" alt="Description" width="500">
+  <img src="https://github.com/user-attachments/assets/866274d9-7249-4ea0-9acd-1b93921c6d60" alt="Description" width="500">
 </div>
 
 # Project Objective
@@ -228,13 +228,22 @@ Copy the <b>Webhook URL</b> and go to LimaCharlie.
 
 <img src="https://github.com/user-attachments/assets/faa2366f-e908-4e25-a5db-6f899e7465bd" width="500" />
 
-In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines
+In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines.
 
 <img src="https://github.com/user-attachments/assets/9722355a-207e-4db2-b528-bfbbd22f2a7c" width="500" />
 <img src="https://github.com/user-attachments/assets/83d0f0a4-d3c1-4e81-a6d5-33c7c525611e" width="500" />
 <img src="https://github.com/user-attachments/assets/6997900f-f5e5-4289-96c9-711b1e8ff1b2" width="500" />
 <img src="https://github.com/user-attachments/assets/830badc7-fb4b-4dd8-ae81-e2e65d6e5cb9" width="500" />
 
+Name the Output and paste the Webhook URL.
 
+<img src="https://github.com/user-attachments/assets/01691493-479b-46ec-9afc-2a5fec65cded" width="500" />
 
+*<b>After saving the output, you will not see a detection. Run a command in the virtual machine, Refresh Samples, and a sample detection will appear.</b>*
 
+<img src="https://github.com/user-attachments/assets/8f8cb381-09ec-421d-bbf8-b99f0b63757c" width="500" />
+<img src="https://github.com/user-attachments/assets/d21c0ed8-68c2-4a1b-b11d-7ce16e8f5da3" width="500" />
+
+Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the most recent event. 
+
+<img src="https://github.com/user-attachments/assets/1e7f6478-a7bd-48d0-830e-551781a7d357" width="500" />
