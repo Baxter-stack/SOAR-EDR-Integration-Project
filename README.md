@@ -26,6 +26,8 @@ This project demonstrates the integration of Security Orchestration, Automation,
 
 
 #### <b> *Please note: You can use any cloud provider or hosted hypervisor for this project.* </b>
+- [Vmware](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 ----
 # Windows Server Virtual Machine Setup in Vultr 
 
