@@ -283,16 +283,29 @@ Paste the channel ID on tines.
 
 <img src="https://github.com/user-attachments/assets/ed0ec5ff-b0c8-4158-b340-57ebf41bf9ee" width="500" />
 
-Write a custom message.
+Now we will create the detection message with important fields. (These can be obtained under Retrieve Detections). 
 
-<img src="https://github.com/user-attachments/assets/3a54627b-2036-4e93-a5fd-e6395cd616fe" width="500" />
+<img src="https://github.com/user-attachments/assets/0d92ec72-01e3-4aaa-a18b-a05fd30589de" width="500" />
 
 Hit <b>run</b> on slack and verify the message. 
 
 <img src="https://github.com/user-attachments/assets/d6b89b5d-6a71-45cd-8107-71a7ac478111" width="500" />
-<img src="https://github.com/user-attachments/assets/bb8bc207-2543-4b06-8f7a-0f9022e57497" width="500" />
+<img src="https://github.com/user-attachments/assets/f08bdef2-c5e2-4c7c-8ccb-0496e323125e" width="500" />
 
 ----
 <b> - Next we'll create a Send Email Action.</b>
 
 Drag the Send Email Action onto the story and connect it to Webhook. 
+
+Name the <b>Description, Sender name, and Subject</b>. 
+Copy the message from the slack body and paste it into the Email Action.
+
+<img src="https://github.com/user-attachments/assets/081672a7-e4bb-4341-b12f-5ad0ed7f1713" width="500" />
+
+Select Run > Retrieve Detections > Test. 
+
+<img src="https://github.com/user-attachments/assets/a1b98f57-7d16-44b8-91af-ad4e59fc972c" width="500" />
+
+Confirmed email!
+
+<img src="https://github.com/user-attachments/assets/d64fca7e-60f6-4aa6-8618-71211c3a2cf3" width="500" />
