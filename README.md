@@ -252,7 +252,7 @@ Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the mo
 
 *<b>Next, we will link tines to slack.</b>
 
-On slack, select <b? More > Automations > search for tines > Add > Add to Slack.</b>
+On slack, select <b> More > Automations > search for tines > Add > Add to Slack.</b>
 
 <img src="https://github.com/user-attachments/assets/c84cd47e-d729-49d9-9c0e-c941b8004168" width="300" />
 
@@ -272,6 +272,27 @@ New Slack Credential.
 
 <img src="https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6" width="500" />
 
+Under templates in tines, select <b> Slack > Send a message template.</b>
 
+On slack, right-click on alerts, select view channel details, and copy channel ID.
 
+<img src="https://github.com/user-attachments/assets/212763bb-cf8e-4c29-98ca-71e423139a4f" width="500" />
+<img src="https://github.com/user-attachments/assets/029e2a8b-a318-4493-9cbe-c0ff6399b617" width="500" />
 
+Paste the channel ID on tines.
+
+<img src="https://github.com/user-attachments/assets/ed0ec5ff-b0c8-4158-b340-57ebf41bf9ee" width="500" />
+
+Write a custom message.
+
+<img src="https://github.com/user-attachments/assets/3a54627b-2036-4e93-a5fd-e6395cd616fe" width="500" />
+
+Hit <b>run</b> on slack and verify the message. 
+
+<img src="https://github.com/user-attachments/assets/d6b89b5d-6a71-45cd-8107-71a7ac478111" width="500" />
+<img src="https://github.com/user-attachments/assets/bb8bc207-2543-4b06-8f7a-0f9022e57497" width="500" />
+
+----
+<b> - Next we'll create a Send Email Action.</b>
+
+Drag the Send Email Action onto the story and connect it to Webhook. 
