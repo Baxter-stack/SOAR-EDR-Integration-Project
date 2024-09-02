@@ -249,3 +249,29 @@ Name the Output and paste the Webhook URL.
 Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the most recent event. 
 
 <img src="https://github.com/user-attachments/assets/1e7f6478-a7bd-48d0-830e-551781a7d357" width="500" />
+
+*<b>Next, we will link tines to slack.</b>
+
+On slack, select <b? More > Automations > search for tines > Add > Add to Slack.</b>
+
+<img src="https://github.com/user-attachments/assets/c84cd47e-d729-49d9-9c0e-c941b8004168" width="300" />
+
+Follow the steps for installing the app. 
+
+<img src="https://github.com/user-attachments/assets/9696c5d1-1012-4bc7-b4d7-e657e9aa3205" width="500" />
+
+In the tines dashboard, navigate to <b>Your teams > Credentials > New Credentials > Slack > Use Tine's app for Slack </b>
+
+<img src="https://github.com/user-attachments/assets/f924649b-3ac7-4602-a3b1-039fbc497160" width="500" />
+
+<img src="https://github.com/user-attachments/assets/c7e7b120-b322-459f-b482-98c61c1b5df2" width="500" />
+
+<img src="https://github.com/user-attachments/assets/5c44bb84-a085-4085-a9f9-2575f51e388f" width="500" />
+
+New Slack Credential.
+
+<img src="https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6" width="500" />
+
+
+
+
