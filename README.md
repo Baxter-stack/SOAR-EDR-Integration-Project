@@ -309,3 +309,20 @@ Select Run > Retrieve Detections > Test.
 Confirmed email!
 
 <img src="https://github.com/user-attachments/assets/d64fca7e-60f6-4aa6-8618-71211c3a2cf3" width="500" />
+
+---
+<b> - For User Prompt, hit tools and add a new page. </b>
+
+Provide a <b> Name, Description, and Success message </b>. 
+
+<img src="https://github.com/user-attachments/assets/8b490173-b1a2-4988-bb2b-db350aaded79" width="500" />
+
+Select Edit on the User Prompt and input the Detection Fields. 
+
+<img src="https://github.com/user-attachments/assets/5d50c5c6-2022-47bd-8877-09e9e5ce5be5" width="500" />
+
+Cool!!
+
+<img src="https://github.com/user-attachments/assets/6bcd07b6-80a2-4939-ba22-e30145618f56" width="500" />
+
+<b> - We will now build out the Y/N responses for the User Prompt.</b> 
