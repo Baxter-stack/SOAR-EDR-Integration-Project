@@ -326,3 +326,24 @@ Cool!!
 <img src="https://github.com/user-attachments/assets/6bcd07b6-80a2-4939-ba22-e30145618f56" width="500" />
 
 <b> - We will now build out the Y/N responses for the User Prompt.</b> 
+
+<img src="https://github.com/user-attachments/assets/83578fd1-e2ce-47af-acc0-e04694c4678a" width="500" />
+
+Select the <b>Trigger</b> tool and drag it to the story. 
+Name it <b>Yes</b> and input the rules.
+
+<img src="https://github.com/user-attachments/assets/19633cb6-83d7-4bb7-ac5a-037ee6652e68" width="500" />
+<img src="https://github.com/user-attachments/assets/ed50ad47-a1af-4407-80bd-3210ec308524" width="500" />
+
+Under templates, select <b>LimaCharlie</b> and search for <b>Isolate Sensor</b>.
+
+Provide a <b> Name and Description</b>.
+
+Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.   
+
+<img src="https://github.com/user-attachments/assets/bfbd9700-177f-4436-9968-2595afa86f9d" width="500" />
+<img src="https://github.com/user-attachments/assets/b87da941-3f52-4b96-ad1b-ffef8c69c34e" width="500" />
+<img src="https://github.com/user-attachments/assets/fe138534-a30f-48fd-90ba-414e38981c41" width="500" />
+
+
+
