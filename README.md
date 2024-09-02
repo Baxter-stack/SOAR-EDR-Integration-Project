@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>SOAR EDR Integration</h2>
+  <h2>SOAR EDR Integration & Automation</h2>
 </div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/866274d9-7249-4ea0-9acd-1b93921c6d60" alt="Description" width="500">
