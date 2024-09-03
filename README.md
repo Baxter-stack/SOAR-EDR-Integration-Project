@@ -360,11 +360,29 @@ Once that is done, click on events under User Prompt, select the latest event, a
 
 Can confirm that the host has been isolated in LimaCharlie!
 
+![](https://github.com/user-attachments/assets/846b7f10-db45-4fa0-96bf-676dbcff179e)
+
 <img src="https://github.com/user-attachments/assets/8bf8f654-7cf9-46e8-8524-d8f88bf505ac" width="500" />
 
 Unable to ping with the host being isolated. 
 
 <img src="https://github.com/user-attachments/assets/b0358e24-8a0e-4cfe-94d1-b7e8d02f2b35" width="500" />
+
+<b> - Set up another <b>LimaCharlie</b> template and search for <b>Get Isolation Status</b>. 
+
+![](https://github.com/user-attachments/assets/49dee7c7-f111-4503-a1dc-f8c6d3ab45e0)
+
+Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.   
+
+![](https://github.com/user-attachments/assets/3c33db80-37ef-4ffc-a038-7d6bf916780d)
+
+Add the Slack template and input the <b>Isolation Status & Computer</b> message.  
+![](https://github.com/user-attachments/assets/e2e13df6-9f0b-46f7-959b-31d3dc492f8c)
+
+Run a test and we will receive a message on slack.
+
+![](https://github.com/user-attachments/assets/fa1f65fc-6b83-43d7-ae71-ca2feb0489f7)
+
 
 ---
 
@@ -381,3 +399,13 @@ Add the Slack template to <b>Send a message</b> and connect it to the Trigger ac
 Under Message, add the value, <b>retrieve_detections.body.detect.routing.hostname</b>. 
 
 ![](https://github.com/user-attachments/assets/98455546-0004-4562-bcd2-72b21d1f642c)
+
+Visit the User Prompt page and select No.
+
+*<b>A message will appear on slack to investigate.</b>*
+
+![](https://github.com/user-attachments/assets/06c202ad-fe10-4190-b78e-b0bed912e86b)
+
+![image](https://github.com/user-attachments/assets/0a5e0b83-4bfd-46aa-8be6-704bef83baf9)
+
+ 
