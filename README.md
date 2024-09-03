@@ -60,9 +60,9 @@ After you deploy the server, you will get the “Running” status
 
 Once the installation is completed and you get “Running” status, select “View Server Details” to obtain the machine’s password and “View Console” to access the VM.
 
-<img src="https://github.com/user-attachments/assets/be8e5010-1eba-4bcb-8458-72ee6758a293" width="500" />
+![](https://github.com/user-attachments/assets/be8e5010-1eba-4bcb-8458-72ee6758a293)
 
-<img src="https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137" width="500" />
+![](https://github.com/user-attachments/assets/a906243b-6927-46a7-82a8-fdacfc3e5137)
 
 -----
 <b> - Next, we’ll set up the firewall.</b>.
@@ -79,9 +79,9 @@ For Protocol, select <b>MS RDP</b>. <b>Source</b>, select <b>MY IP</b> and hit t
 
 To add the firewall, go back to your machine and select <b>Settings</b> > <b>Firewall</b> > Click the dropdown and select the firewall you created > <b>Update Firewall Group</b>.
 
-<img src="https://github.com/user-attachments/assets/bb014ad2-4820-42f0-bc9e-263646562044" width="500" />
+![](https://github.com/user-attachments/assets/bb014ad2-4820-42f0-bc9e-263646562044)
 
-<img src="https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91" width="500" />
+![](https://github.com/user-attachments/assets/6a80d47c-8b29-47f1-aa32-c230daa9ac91)
 
 -----
 # ![LimaCharlie](https://images.ctfassets.net/8ypp714zy4gs/56gQDOjtMywHI4R70K8WdJ/162b909916246fd2cb77fd95c0f74100/LimaCharlie_LogoMarkOnly_WHITE.png?w=64&q=100) EDR Installation on Virtual Machine
@@ -90,22 +90,22 @@ Navigate to [LimaCharlie](https://limacharlie.io/) and create an account.
 
 Create a New Organization, select your name and desired residency region.
 
-<img src="https://github.com/user-attachments/assets/e08d9529-8592-4bc3-980e-4620e480aa57" width="500" />
+![](https://github.com/user-attachments/assets/e08d9529-8592-4bc3-980e-4620e480aa57)
 
-<img src="https://github.com/user-attachments/assets/f3fd3849-2358-466b-a35f-e5b3721968d2" width="500" />
+![](https://github.com/user-attachments/assets/f3fd3849-2358-466b-a35f-e5b3721968d2)
 
 For the installation key, remove the default keys and create a new key.
 
-<img src="https://github.com/user-attachments/assets/824cc7ee-9ad8-4f45-af6e-159df3dd7772" width="500" />
+![](https://github.com/user-attachments/assets/824cc7ee-9ad8-4f45-af6e-159df3dd7772)
 
 Next, under <b>Sensor Downloads</b>, copy the link address for the <b>Windows 64 bit</b> EDR agent and paste into server MS Edge page.
 
-<img src="https://github.com/user-attachments/assets/fa0dfd54-ad6f-40c7-aea6-d7c8aed3787c" width="500" />
-<img src="https://github.com/user-attachments/assets/6e98b131-fbcf-4e60-aa73-01abc0d1c505" width="500" />
+![](https://github.com/user-attachments/assets/fa0dfd54-ad6f-40c7-aea6-d7c8aed3787c)
+![](https://github.com/user-attachments/assets/6e98b131-fbcf-4e60-aa73-01abc0d1c505)
 
 Copy sensor key which is the installation key
 
-<img src="https://github.com/user-attachments/assets/96af6c87-2190-4953-9584-4530efb7d6a6" width="500" />
+![](https://github.com/user-attachments/assets/96af6c87-2190-4953-9584-4530efb7d6a6)
 
 Open Powershell on the Server as <b>Administrator</b>.
 
@@ -113,15 +113,15 @@ Navigate to the downloads directory.
 
 Type in the hcp.exe downloaded, insert <b> -i </b>, the sensor key (installation key) and hit enter.
 
- <img src="https://github.com/user-attachments/assets/ddfa5bd2-73e3-4cfa-8595-80240e1df32f" width="500" />
+![](https://github.com/user-attachments/assets/ddfa5bd2-73e3-4cfa-8595-80240e1df32f)
 
- <img src="https://github.com/user-attachments/assets/fe512496-c6c2-411e-8332-42dafde3ec88" width="500" />
+![](https://github.com/user-attachments/assets/fe512496-c6c2-411e-8332-42dafde3ec88)
 
 <b>Sweet! The Agent was installed successfully!</b>
 
 We can confirm that the sensor is active! 
 
-<img src="https://github.com/user-attachments/assets/fcd6352a-4c7c-4685-9bd6-64999b0b5fc1" width="500" />
+![](https://github.com/user-attachments/assets/fcd6352a-4c7c-4685-9bd6-64999b0b5fc1)
 
 Sensor Details:
 
