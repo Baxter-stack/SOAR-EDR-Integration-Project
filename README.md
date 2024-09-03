@@ -272,6 +272,7 @@ New Slack Credential.
 ![](https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6)
 
 *Slack & LimaCahrlie Credentials will be needed moving forward.*
+
 ![](https://github.com/user-attachments/assets/c72df98c-1e6c-4dd4-ac29-ca1555e1422f)
 
 Under templates in tines, select <b> Slack > Send a message template.</b>
@@ -279,6 +280,7 @@ Under templates in tines, select <b> Slack > Send a message template.</b>
 On slack, right-click on alerts, select view channel details, and copy channel ID.
 
 ![](https://github.com/user-attachments/assets/212763bb-cf8e-4c29-98ca-71e423139a4f)
+
 ![](https://github.com/user-attachments/assets/029e2a8b-a318-4493-9cbe-c0ff6399b617)
 
 Paste the channel ID on tines.
