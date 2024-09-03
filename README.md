@@ -366,3 +366,18 @@ Unable to ping with the host being isolated.
 
 <img src="https://github.com/user-attachments/assets/b0358e24-8a0e-4cfe-94d1-b7e8d02f2b35" width="500" />
 
+---
+
+<b> Select the Trigger tool and drag to story. Name it No and input the rules. </b>
+
+![](https://github.com/user-attachments/assets/e1338c23-989a-4638-94e7-ab78dcdb57f3)
+
+![](https://github.com/user-attachments/assets/f382830b-4fbb-483b-aa9f-30d9715804f0)
+
+Add the Slack template to <b>Send a message</b> and connect it to the Trigger action. 
+
+![](https://github.com/user-attachments/assets/cf2671ff-7092-422f-8bbc-6ba7f48d7967)
+
+Under Message, add the value, <b>retrieve_detections.body.detect.routing.hostname</b>. 
+
+![](https://github.com/user-attachments/assets/98455546-0004-4562-bcd2-72b21d1f642c)
