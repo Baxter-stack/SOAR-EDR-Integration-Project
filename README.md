@@ -272,6 +272,9 @@ New Slack Credential.
 
 <img src="https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6" width="500" />
 
+*Slack & LimaCahrlie Credentials will be needed moving forward.*
+<img src="https://github.com/user-attachments/assets/c72df98c-1e6c-4dd4-ac29-ca1555e1422f" width="500" />
+
 Under templates in tines, select <b> Slack > Send a message template.</b>
 
 On slack, right-click on alerts, select view channel details, and copy channel ID.
@@ -345,5 +348,10 @@ Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.
 <img src="https://github.com/user-attachments/assets/b87da941-3f52-4b96-ad1b-ffef8c69c34e" width="500" />
 <img src="https://github.com/user-attachments/assets/fe138534-a30f-48fd-90ba-414e38981c41" width="500" />
 
+Once that is done, click on events under User Prompt, select the latest event, and Re-emit. 
 
+<img src="https://github.com/user-attachments/assets/f4d76985-2e66-4c8f-bed1-8fa9d5fdf713" width="500" />
 
+Can confirm that the host has been isolated in LimaCharlie!
+
+<img src="https://github.com/user-attachments/assets/8bf8f654-7cf9-46e8-8524-d8f88bf505ac" width="500" />
