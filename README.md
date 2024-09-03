@@ -155,8 +155,8 @@ Event Information:
 
 Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>New Rule</b>. 
 
-<img src="https://github.com/user-attachments/assets/50a138cc-9e8c-4865-b6e7-7863e1280298" width="500" />
-<img src="https://github.com/user-attachments/assets/61ec5e92-04ca-4ce7-91eb-0a2e80de44a9" width="500" />
+![](https://github.com/user-attachments/assets/50a138cc-9e8c-4865-b6e7-7863e1280298)
+![](https://github.com/user-attachments/assets/61ec5e92-04ca-4ce7-91eb-0a2e80de44a9)
 
 #### - *We will use a template to help create the detection rule.*
 Navigate to <b>Automation</b> > <b>D&R Rules</b> > <b>windows_process_creation/proc_creation_win_lolbin_device_credential_deployment</b>
@@ -232,10 +232,9 @@ Copy the <b>Webhook URL</b> and go to LimaCharlie.
 
 In LimaCharlie, navigate to <b>Outputs > Add Output > Detections > Tines.
 
-<img src="https://github.com/user-attachments/assets/9722355a-207e-4db2-b528-bfbbd22f2a7c" width="500" />
-<img src="https://github.com/user-attachments/assets/83d0f0a4-d3c1-4e81-a6d5-33c7c525611e" width="500" />
-<img src="https://github.com/user-attachments/assets/6997900f-f5e5-4289-96c9-711b1e8ff1b2" width="500" />
-<img src="https://github.com/user-attachments/assets/830badc7-fb4b-4dd8-ae81-e2e65d6e5cb9" width="500" />
+![](https://github.com/user-attachments/assets/83d0f0a4-d3c1-4e81-a6d5-33c7c525611e)
+![](https://github.com/user-attachments/assets/6997900f-f5e5-4289-96c9-711b1e8ff1b2)
+![](https://github.com/user-attachments/assets/830badc7-fb4b-4dd8-ae81-e2e65d6e5cb9)
 
 Name the Output and paste the Webhook URL.
 
@@ -243,8 +242,8 @@ Name the Output and paste the Webhook URL.
 
 *<b>After saving the output, you will not see a detection. Run a command in the virtual machine, Refresh Samples, and a sample detection will appear.</b>*
 
-<img src="https://github.com/user-attachments/assets/8f8cb381-09ec-421d-bbf8-b99f0b63757c" width="500" />
-<img src="https://github.com/user-attachments/assets/d21c0ed8-68c2-4a1b-b11d-7ce16e8f5da3" width="500" />
+![](https://github.com/user-attachments/assets/8f8cb381-09ec-421d-bbf8-b99f0b63757c)
+![](https://github.com/user-attachments/assets/d21c0ed8-68c2-4a1b-b11d-7ce16e8f5da3)
 
 Under <b>Retrieve Detections</b>, select <b>Events</b> and take a look at the most recent event. 
 
@@ -262,25 +261,25 @@ Follow the steps for installing the app.
 
 In the tines dashboard, navigate to <b>Your teams > Credentials > New Credentials > Slack > Use Tine's app for Slack </b>
 
-<img src="https://github.com/user-attachments/assets/f924649b-3ac7-4602-a3b1-039fbc497160" width="500" />
+![](https://github.com/user-attachments/assets/f924649b-3ac7-4602-a3b1-039fbc497160)
 
-<img src="https://github.com/user-attachments/assets/c7e7b120-b322-459f-b482-98c61c1b5df2" width="500" />
+![](https://github.com/user-attachments/assets/c7e7b120-b322-459f-b482-98c61c1b5df2)
 
-<img src="https://github.com/user-attachments/assets/5c44bb84-a085-4085-a9f9-2575f51e388f" width="500" />
+![](https://github.com/user-attachments/assets/5c44bb84-a085-4085-a9f9-2575f51e388f)
 
 New Slack Credential.
 
-<img src="https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6" width="500" />
+![](https://github.com/user-attachments/assets/2625a7fe-3c34-496a-b9d2-d683881882e6)
 
 *Slack & LimaCahrlie Credentials will be needed moving forward.*
-<img src="https://github.com/user-attachments/assets/c72df98c-1e6c-4dd4-ac29-ca1555e1422f" width="500" />
+![](https://github.com/user-attachments/assets/c72df98c-1e6c-4dd4-ac29-ca1555e1422f)
 
 Under templates in tines, select <b> Slack > Send a message template.</b>
 
 On slack, right-click on alerts, select view channel details, and copy channel ID.
 
-<img src="https://github.com/user-attachments/assets/212763bb-cf8e-4c29-98ca-71e423139a4f" width="500" />
-<img src="https://github.com/user-attachments/assets/029e2a8b-a318-4493-9cbe-c0ff6399b617" width="500" />
+![](https://github.com/user-attachments/assets/212763bb-cf8e-4c29-98ca-71e423139a4f)
+![](https://github.com/user-attachments/assets/029e2a8b-a318-4493-9cbe-c0ff6399b617)
 
 Paste the channel ID on tines.
 
@@ -292,8 +291,9 @@ Now we will create the detection message with important fields. (These can be ob
 
 Hit <b>run</b> on slack and verify the message. 
 
-<img src="https://github.com/user-attachments/assets/d6b89b5d-6a71-45cd-8107-71a7ac478111" width="500" />
-<img src="https://github.com/user-attachments/assets/f08bdef2-c5e2-4c7c-8ccb-0496e323125e" width="500" />
+![](https://github.com/user-attachments/assets/d6b89b5d-6a71-45cd-8107-71a7ac478111)
+
+![](https://github.com/user-attachments/assets/f08bdef2-c5e2-4c7c-8ccb-0496e323125e)
 
 ----
 <b> - Next we'll create a Send Email Action.</b>
@@ -301,13 +301,14 @@ Hit <b>run</b> on slack and verify the message.
 Drag the Send Email Action onto the story and connect it to Webhook. 
 
 Name the <b>Description, Sender name, and Subject</b>. 
+
 Copy the message from the slack body and paste it into the Email Action.
 
-<img src="https://github.com/user-attachments/assets/081672a7-e4bb-4341-b12f-5ad0ed7f1713" width="500" />
+![](https://github.com/user-attachments/assets/081672a7-e4bb-4341-b12f-5ad0ed7f1713)
 
 Select Run > Retrieve Detections > Test. 
 
-<img src="https://github.com/user-attachments/assets/a1b98f57-7d16-44b8-91af-ad4e59fc972c" width="500" />
+![](https://github.com/user-attachments/assets/a1b98f57-7d16-44b8-91af-ad4e59fc972c)
 
 Confirmed email!
 
@@ -335,8 +336,9 @@ Cool!!
 Select the <b>Trigger</b> tool and drag it to the story. 
 Name it <b>Yes</b> and input the rules.
 
-<img src="https://github.com/user-attachments/assets/19633cb6-83d7-4bb7-ac5a-037ee6652e68" width="500" />
-<img src="https://github.com/user-attachments/assets/ed50ad47-a1af-4407-80bd-3210ec308524" width="500" />
+![](https://github.com/user-attachments/assets/19633cb6-83d7-4bb7-ac5a-037ee6652e68)
+
+![](https://github.com/user-attachments/assets/ed50ad47-a1af-4407-80bd-3210ec308524)
 
 Under templates, select <b>LimaCharlie</b> and search for <b>Isolate Sensor</b>.
 
@@ -344,9 +346,11 @@ Provide a <b> Name and Description</b>.
 
 Under <b>URL</b>, add the value, <b>retrieve_detections.body.routing.sid</b>.   
 
-<img src="https://github.com/user-attachments/assets/bfbd9700-177f-4436-9968-2595afa86f9d" width="500" />
-<img src="https://github.com/user-attachments/assets/b87da941-3f52-4b96-ad1b-ffef8c69c34e" width="500" />
-<img src="https://github.com/user-attachments/assets/fe138534-a30f-48fd-90ba-414e38981c41" width="500" />
+![](https://github.com/user-attachments/assets/bfbd9700-177f-4436-9968-2595afa86f9d)
+
+![](https://github.com/user-attachments/assets/b87da941-3f52-4b96-ad1b-ffef8c69c34e)
+
+![](https://github.com/user-attachments/assets/fe138534-a30f-48fd-90ba-414e38981c41)
 
 Once that is done, click on events under User Prompt, select the latest event, and Re-emit. 
 
