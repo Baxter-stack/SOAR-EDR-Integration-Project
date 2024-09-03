@@ -311,7 +311,7 @@ Select Run > Retrieve Detections > Test.
 
 Confirmed email!
 
-<img src="https://github.com/user-attachments/assets/d64fca7e-60f6-4aa6-8618-71211c3a2cf3" width="500" />
+![](https://github.com/user-attachments/assets/d64fca7e-60f6-4aa6-8618-71211c3a2cf3)
 
 ---
 <b> - For User Prompt, hit tools and add a new page. </b>
@@ -355,3 +355,8 @@ Once that is done, click on events under User Prompt, select the latest event, a
 Can confirm that the host has been isolated in LimaCharlie!
 
 <img src="https://github.com/user-attachments/assets/8bf8f654-7cf9-46e8-8524-d8f88bf505ac" width="500" />
+
+Unable to ping with the host being isolated. 
+
+<img src="https://github.com/user-attachments/assets/b0358e24-8a0e-4cfe-94d1-b7e8d02f2b35" width="500" />
+
