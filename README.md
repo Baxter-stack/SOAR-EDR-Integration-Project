@@ -6,7 +6,9 @@
 </div>
 
 # Project Objective
-This project demonstrates the integration of Security Orchestration, Automation, and Response (SOAR) with Endpoint Detection and Response (EDR) tools to automate security workflows and enhance cybersecurity posture. By leveraging LimaCharlie for the EDR agent and Tines for SOAR, the project provides real-time security insights and automated responses to detected threats. A key feature of this integration is the ability to empower users with a prompt to decide whether to isolate the affected machine, allowing for informed decision-making and flexibility in response actions. Additionally, the project highlights the seamless communication between various platforms, such as Slack and email, ensuring that critical detection alerts and actions are efficiently communicated to relevant stakeholders. This integration streamlines the incident response process and provides a robust framework for dynamic and adaptable security operations.
+This project showcases the integration of Security Orchestration, Automation, and Response (SOAR) with Endpoint Detection and Response (EDR) to automate security workflows and enhance cybersecurity posture. Using LimaCharlie for EDR and Tines for SOAR, the project provides real-time security insights and automated responses, focusing on detecting and mitigating credential access attacks with the LaZagne tool.
+
+LimaCharlie detects the use of LaZagne on endpoint devices, triggering automated alerts and remediation actions, with the option for users to decide whether to isolate affected machines. Communication is streamlined through Slack and email, ensuring timely alerts and responses, making security operations more dynamic and adaptable.
 
 # Tools Used
 - <b>Windows Machine</b>: Target machine LimaCharlie will detect for isolation decision, where users can choose to isolate it based on the threat severity.
